@@ -4,7 +4,7 @@ body
 }
 a {
       text-decoration:none;
-   }
+}
 h1  
 {
   color: rgb(151, 135, 135)
@@ -29,9 +29,22 @@ li:hover
 table
 {
   border-collapse: collapse;
+  font-family: serif;
+  font-size: 1.5em;
 }
 td, th {
   border: 1px solid #999;
   padding: 0.5rem;
   text-align: left;
+  color:rgb(28, 201, 143)
+}
+#tabletags th {
+  background-color: black;
+  color: white;
+}
+#tabletags tr:nth-child(even) {
+  background-color: rgb(153, 204, 255);
+}
+#tabletags tr:nth-child(odd) {
+ background-color: rgb(224, 224, 224);
 }
